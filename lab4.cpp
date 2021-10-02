@@ -23,16 +23,17 @@ int main()
     cout << "L = " << L;
 
     //Задача 3
-    cin >> a; cin >> b;
+    cout << "Enter a and b"
+    cin >> a >> b;
     cout << (float)(a + b) / 2;
 
     //Задача 4
-    cin >> a;
-    cin >> b;
+    cout << "Enter 2 not null number"
+    cin >> a >> b;
     cout << a + b << " " << a - b << " " << a * b << " " << (float)(a * a) / (b * b);
 
     //Задача 5
-    cin >> a;
-    cin >> b;
+    cout << "Enter 2 not null number"
+    cin >> a >> b;
     cout << a + b << " " << a - b << " " << a * b << " " << (float)abs(a) / abs(b);
 }
