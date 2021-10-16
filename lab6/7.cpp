@@ -5,9 +5,9 @@ int main()
 {
 	// Задание 7
 	int a, b, c;
-	cout << "Enter a";
+	cout << "Enter a \n";
 	cin >> a;
 	b = pow(a, 3);
-	c = pow(a, 5);
-	cout << "a^15 = " << b * b * b * c * a;
+	c = pow(a, 4);
+	cout << "a^15 = " << b * c * b * a * b * a;
 }

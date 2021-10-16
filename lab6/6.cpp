@@ -7,6 +7,8 @@ int main()
 	int a, b;
 	cout << "Enter a: ";
 	cin >> a;
-	b = pow(a, 3);
-	cout << "a^8 = " << b * b * b;
+	b = pow(a, 5);
+	cout << "a^8 = " << b * a * a * a;
 }
+
+
