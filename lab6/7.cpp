@@ -5,6 +5,7 @@ int main()
 {
 	// Задание 7
 	int a, b, c;
+	cout << "Enter a";
 	cin >> a;
 	b = pow(a, 3);
 	c = pow(a, 5);

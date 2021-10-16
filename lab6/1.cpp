@@ -5,6 +5,7 @@ int main()
 {
 	// Задание 1
 	int a, b;
+	cout << "Enter a and b \n";
 	cin >> a >> b;
 	int temp = a;
 	a = b;
