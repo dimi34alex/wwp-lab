@@ -36,11 +36,10 @@ a = []
 print("Введите элементы массива а")
 for i in range(n):
     a.append(int(input()))
-kof = 0
+kof = a[-2]
 for i in range(len(a)):
     if a[i] % 2 != 0:
         a[i] += kof
-        kof = a[i]-kof
 print(a)
 
 'Task 4'
