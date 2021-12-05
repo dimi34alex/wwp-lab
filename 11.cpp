@@ -1,4 +1,12 @@
-﻿#include <iostream>
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
 using namespace std;
 #include <string>
 
@@ -30,13 +38,13 @@ int main() {
 
     //Task 3
     cout << "Enter point a and b and c" << "\n";
-    int a, b, c;
-    cin >> a >> b >> c;
-    if (abs(b - a) < abs(c - a)) {
-        cout << "Point B. Distance: " << abs(b - a);
+    int xa, ya, xb, yb, xc, yc;
+    cin >> xa >> ya >> xb >> yb >> xc >> yc;
+    if (sqrt(pow(xa-xb,2)+pow(ya-yb,2)) < sqrt(pow(xa-xc,2)+pow(ya-yc,2))) {
+        cout << "Point B. Distance: " << sqrt(pow(xa-xb,2)+pow(ya-yb,2));
     }
     else {
-        cout << "Point C. Distance: " << abs(c - a);
+        cout << "Point C. Distance: " << sqrt(pow(xa-xc,2)+pow(ya-yc,2));
     }
     //Task 4
     cout << "Enter point x and y" << "\n";
@@ -96,4 +104,3 @@ int main() {
         cout << "Нет подходящего описания";
     }
 }
-
